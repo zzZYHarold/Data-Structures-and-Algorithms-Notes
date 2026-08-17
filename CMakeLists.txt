@@ -48,3 +48,8 @@ add_executable(p75_Floyd graph/floyd.c)
 add_executable(p76_Kahn graph/kahn_AOV_Network_Topological_Sorting.c)
 add_executable(p77_Kahn-Ve-Vl graph/kahn_Ve_Vl.c)
 
+# 排序
+add_executable(p78_bubble-sort sort/bubble_sort.c)
+add_executable(p79_insert-sort sort/insert_sort.c)
+add_executable(p80_select-sort sort/select_sort.c)
+
