@@ -52,4 +52,5 @@ add_executable(p77_Kahn-Ve-Vl graph/kahn_Ve_Vl.c)
 add_executable(p78_bubble-sort sort/bubble_sort.c)
 add_executable(p79_insert-sort sort/insert_sort.c)
 add_executable(p80_select-sort sort/select_sort.c)
-
+add_executable(p81_quick-sort sort/quick_sort.c)
+add_executable(p82_quick-sort-double-axis sort/quick_sort_dual_pivot.c)
