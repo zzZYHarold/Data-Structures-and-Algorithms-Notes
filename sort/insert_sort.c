@@ -8,7 +8,9 @@
 void insertSort(int arr[], int size) {
     for (int i = 1; i < size; ++i) {
         int toInsert = arr[i], j = i;
-        while (j > 0 && arr[j - 1] > toInsert) {  // 只要j>0并且前一个还大于当前待插入元素，就一直往前找
+
+        // 只要j>0并且前一个还大于当前待插入元素，就一直往前找
+        while (j > 0 && arr[j - 1] > toInsert) {
             arr[j] = arr[j - 1];
             j--;
         }
